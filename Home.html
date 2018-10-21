@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <! Creates the style needed to center the logo>
+  <style>
+
+  body {
+    background-image: url("design.png");
+    background-repeat;
+  }
+
+  img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  <! This section creates columns and rows in the body>
+  .column {
+    float:left;
+    width:15%;
+    padding; 10px;
+
+  }
+
+  .column img {
+    margin-top: 12px;
+  }
+
+  .row;after {
+    content: "";
+    display: grid;
+    clear:both;
+  }
+
+  </style>
+
+  <! Adding a centered linked logo as the header >
+  <title> Charice's Creations Homepage</title>
+  <a href="Home.html">
+  <img src="logo.png" alt="Company Logo" style="width:20%;">
+</head>
+
+<br>
+<br>
+<br>
+
+<! Adds a navigation section to the top center of the page>
+<section>
+  <span>
+    <div style="text-align:center; font-size:175%">
+    <a href="Home.html">Home</a>
+    <a href="products.php">Products</a>
+    <a href="contact.html">Contact</a>
+    <a href="qa.html">Q/A</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="socialmedia.html">Social Media</a>
+  </span>
+</section>
+
+<br>
+<br>
+<br>
+
+<! This creates a column in the middle of the site for updates>
+<article>
+
+<! This is the title of the column>
+    <h1 style="text-align:center; font-size:60px;">CC News</h1>
+
+
+<! Latest news update>
+  <div class="row">
+    <div class="column">
+    <p align="center" style="font-size:150%;"> New Minecraft cross stitch project!</p>
+    <img src="New.jpg" alt="Minecraft Creeper" style="width:25%">
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<!Another update>
+<div class="row">
+  <div class="column">
+  <p align="center" style="font-size:150%;"> Finished the Pokeball cross stitch! <br>
+  Will be available on Etsy by the end of the October!</p>
+  <img src="Pokeball.jpg" alt="Pokeball" style="width:25%">
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+<! First posted update>
+<div class="row">
+  <div class="column">
+  <p align="center" style="font-size:150%;"> New yarn for new projects!</p>
+  <img src="yarn.jpg" alt="Yarn" style="width:25%">
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+</article>
+
+</html>
