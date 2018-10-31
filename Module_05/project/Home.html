@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Charice's Creations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+      p {border-bottom:5px solid black;}
+      p.solid {background-color:lightgray; border-radius:8px; border-style:solid; font-size:35px; }
+
+      img {
+        border-radius: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background-image: url("design.png");
+        background-repeat;
+      }
+
+
+
+      /* This part styles the header*/
+      .header {
+        margin: 0;
+        background-image: url("design2.jpg");
+        background-repeat;
+        padding: 20px;
+        text-align: center;
+      }
+
+      /* This part styles the navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      /* Styles the links on the navigation bar */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* This changes the color when the mouse hovers over the navigation links */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* This section creates the columns in the body. */
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 15px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* This makes it so the columns stack on a mobile device */
+      @media screen and (max-width:600px) {
+        .column {
+          width: 100%;
+        }
+      }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: grey;
+        color: black;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+
+  <header>
+
+    <div class="header">
+      <h1> </h1><a href="Home.html">
+      <img src="logo.png" alt="Company Logo" style="width:15%;"> </a>
+      </header>
+
+    </div>
+
+    <div class="topnav">
+      <a class="active" href="Home.html"> Home </a>
+      <a href="products.php"> Products </a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+
+    <div class="row">
+    <br>
+      <p align="center" class="solid" >CC News</p>
+
+      <div class="column">
+        <br>
+        <p align="center" style="font-size:150%;"> New Minecraft cross stitch project!</p><img src="New.jpg" alt="Minecraft Creeper" style="width:50%">
+      </div>
+
+      <div class="column">
+
+<br>
+
+        <p align="center" style="font-size:150%;"> New Pokeball Cross Stitch Coasters!
+
+        </p>
+        <img src="Pokeball.jpg" alt="Pokeball" style="width:50%">
+      </div>
+<br><br>
+
+      <div class="column">
+
+
+
+        <p align="center" style="font-size:150%;"> New yarn for new projects!</p>
+        <img src="yarn.jpg" alt="Yarn" style="width:50%">
+      </div>
+    </div>
+
+  </body>
+<div class="footer">
+Created by: Charice Scott</div>
+</html>
